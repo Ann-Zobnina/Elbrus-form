@@ -81,10 +81,10 @@ function createCard({ name, secondName, email, city }) {
             </div>
             <div class="menu">
                 <button data-delete-user-email=${email} class="delete">
-                    <img src="cross.svg" alt="Удалить">
+                    <img src="./cross.svg" alt="Удалить">
                 </button>
                 <button data-change-user-email=${email} class="change">
-                    <img src="gear.svg" alt="Изменить">
+                    <img src="./gear.svg" alt="Изменить">
                 </button>
             </div>
         </div>
